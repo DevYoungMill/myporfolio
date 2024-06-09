@@ -415,7 +415,7 @@ body.dark-theme {
 }
 
 .about__skills-content {
-  grid-template-columns: repeat(5, max-content);
+  grid-template-columns: repeat(4, max-content);
   justify-content: center;
   align-items: center;
   gap: 2rem 1.5rem;
@@ -1066,7 +1066,7 @@ body.dark-theme {
   }
 
   .about__skills-content {
-    grid-template-columns: repeat(4, max-content);
+    grid-template-columns: repeat(5, max-content);
     justify-content: initial;
   }
 
