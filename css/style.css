@@ -383,7 +383,7 @@ body.dark-theme {
 }
 
 .about__name {
-  font-size: var(--h1-font-size);
+  font-size: var(--biggest-font-size);
 }
 
 .about__profession {
