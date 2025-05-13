@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600&display=swap');
 :root {
   --header-height: 3.5rem;
 
@@ -16,7 +16,7 @@
   --shadow-color: hsla(var(--hue), 90%, 30%, 0.1);
 
   /* Body & Typography */
-  --body-font: "Syne", sans-serif;
+  --body-font: 'Syne', sans-serif;
   --biggest-font-size: 2rem;
   --h1-font-size: 1.5rem;
   --h2-font-size: 1.25rem;
