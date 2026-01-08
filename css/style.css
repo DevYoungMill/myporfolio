@@ -98,19 +98,19 @@ img {
 }
 
 /* Theme Styling */
-/* .nav__actions {
+.nav__actions {
   display: flex;
   align-items: center;
   column-gap: 1rem;
-} */
+}
 
 /* Change Theme Style */
-/* .change-theme {
-  color: var(--white-color);
+.change-theme {
+  color: var(--title-color);
   font-size: 1.25rem;
   cursor: pointer;
   transition: color 0.4s;
-} */
+}
 
 /* Variables for Dark Theme */
 body.dark-theme {
@@ -121,8 +121,12 @@ body.dark-theme {
   --shadow-color: hsla(var(--hue), 32%, 4%, 0.4);
 }
 
-/* Reusable CSS Class */
+.dark-theme {
+  background-color: #0b0b0b;
+  color: #fff;
+}
 
+/* Reusable CSS Class */
 .container {
   max-width: 1120px;
   margin-inline: 1.5rem;
@@ -172,6 +176,7 @@ body.dark-theme {
 
 .perfil__img {
   width: 180px;
+  margin-top: 12px;
 }
 
 .main {
@@ -196,13 +201,14 @@ body.dark-theme {
   height: var(--header-height);
   display: flex;
   justify-content: space-between;
-  text-align: center;
+  align-items: center;
 }
 
 .nav__logo {
   color: var(--white-color);
   font-weight: var(--font-semi-bold);
   transition: color 0.4s;
+  font-size: 1.25rem;
 }
 
 .nav__toggle,
@@ -233,6 +239,10 @@ body.dark-theme {
     box-shadow: 0 12px 24px var(--shadow-color);
     padding-block: 5rem 4rem;
     transform: top 0.4s;
+  }
+
+  .change-theme {
+    color: var(--white-color);
   }
 }
 
@@ -270,7 +280,7 @@ body.dark-theme {
   box-shadow: 0 2px 16px var(--shadow-color);
 }
 
-.bg-header :is(.nav__logo, .nav__toggle) {
+.bg-header :is(.nav__logo, .nav__toggle, .change-theme) {
   color: var(--title-color);
 }
 
@@ -545,6 +555,10 @@ body.dark-theme {
   height: 200px;
   object-fit: cover;
   object-position: left center;
+}
+
+.dark-theme .work__img {
+  filter: grayscale(1);
 }
 
 .work__icon {
@@ -942,6 +956,7 @@ body.dark-theme {
 
   .perfil__img {
     width: 300px;
+    margin-top: 16px;
   }
 
   .home__rectangle {
